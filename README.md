@@ -14,3 +14,40 @@ v16.13.2
 1.22.11
 
 ```
+
+## Steps
+
+* Boostrap
+```
+yarn create redwood-app ./alpaca
+
+🌲⚡️ Welcome to RedwoodJS! ⚡️🌲
+------------------------------------------------------------------
+✔ Use TypeScript? … no
+✔ Creating Redwood app
+  ✔ Checking node and yarn compatibility
+  ✔ Creating directory '/Users/coder/repos/arunabhdas/githubrepos/alpaca/alpaca'
+✔ Installing packages
+  ✔ Running 'yarn install'... (This could take a while)
+✔ Convert TypeScript files to JavaScript
+✔ Generating types
+
+Thanks for trying out Redwood!
+
+ ⚡️ Get up and running fast with this Quick Start guide: https://redwoodjs.com/docs/quick-start
+```
+
+## Dev 
+
+```
+yarn redwood dev
+```
+
+* Add page using 
+```
+yarn redwood generate page home /
+
+yarn redwood generate page about
+```
+
+
