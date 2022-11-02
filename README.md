@@ -7,10 +7,10 @@
 
 
 ```
-==> node --version
+==> node --version (14.19 <= version <= 16.x )
 v16.13.2
 
-==> yarn --version
+==> yarn --version (version >=1.15)
 1.22.11
 
 ```
